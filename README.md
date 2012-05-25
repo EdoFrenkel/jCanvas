@@ -30,7 +30,7 @@ the plugin will copy the video from the video tag to the canvas.
 API
 ===
     $('#videoId').jCanvas({
-        width: int, //the default is 400px,
+        width: int, //the default is 400px
         height: int, //the default is 320px
         canvasId: 'string', // the default is 'c'
         shape: 'string', // the default is 'square'. another shapes you can use are: circle, chat
