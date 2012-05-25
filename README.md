@@ -2,6 +2,7 @@ jCanvas
 =======
 
 A jQuery plugin that lets you manipulate the shape of video on canvas (requiere html5)
+demo: http://jsfiddle.net/edodifr/MVnY8/
 
 How to use
 ==========
