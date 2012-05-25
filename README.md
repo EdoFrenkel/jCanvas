@@ -5,7 +5,7 @@ A jQuery plugin that lets you manipulate the shape of video on canvas (requiere 
 
 How to use
 ==========
-copy the js folder which include also images folder. don't change the structure.
+copy the jcanvas folder which include also images folder. don't change this structure.
 
 in your HTML file insert the canvas tag and the video tag:
 
@@ -17,7 +17,7 @@ in your HTML file insert the canvas tag and the video tag:
 
 before the </body> tag:
 
-    <script src="js/jquery.jcanvas.js"></script>
+    <script src="jcanvas/jquery.jcanvas.js"></script>
     <script>
         $(document).ready(function() {
             $('#v').jCanvas();
@@ -41,6 +41,8 @@ API
 
 STYLE
 =====
+you can overide every id style:
+
     #cContainer - the container of the canvas. 
       Notice: if you want to change the canvas position you should change the #cContainer position
               if you want to change the canvas width&height you should do it only through the API
