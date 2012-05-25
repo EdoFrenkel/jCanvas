@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </head>    
+    <body>   
+ 
+        <canvas id="myCanvas"></canvas>
+        <video id="video1">
+            <source src="video.mp4" type="video/mp4" />
+        </video>
+        <br />
+        
+        <canvas id="myOtherCanvas"></canvas>
+        <video id="video2">
+            <source src="video.mp4" type="video/mp4" />
+        </video>
+        
+        <script src="jcanvas/jquery.jcanvas.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#video1').jCanvas({
+                    canvasId: 'myCanvas',
+                    width: 300,
+                    height: 100,
+                    roundCorners: 10,
+                    shape: 'chat'
+                });
+                
+                $('#video2').jCanvas({
+                    canvasId: 'myOtherCanvas',
+                    width: 300,
+                    height: 200,
+                    shape: 'circle'
+                });
+                
+                // you should change the style with jquery
+                $('#cContainer2').css({
+                    "background-color": "orange",
+                    "border": "10px solid #FF8C00"
+                });
+            });
+        </script>
+    </body>
+</html>
