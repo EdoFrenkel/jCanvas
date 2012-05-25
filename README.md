@@ -58,7 +58,10 @@ you can overide every id style:
                 
 the overiding is done like so:
 
-    $('#idName').css({"property": "value", "property", "value"});
+    $('#idName').css({
+        "property": "value",
+        "property", "value"
+    });
     
 Known Issues
 ============
