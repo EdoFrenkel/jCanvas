@@ -9,11 +9,11 @@ copy the jcanvas folder which include also images folder. don't change this stru
 
 in your HTML file insert the canvas tag and the video tag:
 
-<canvas id="c"></canvas>
-<video id="v">
-    <source src="video.mp4" type="video/mp4" />
-    <source src="video.ogg" type="video/ogg" />
-</video>
+    <canvas id="c"></canvas>
+    <video id="v">
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.ogg" type="video/ogg" />
+    </video>
 
 before the </body> tag:
 
