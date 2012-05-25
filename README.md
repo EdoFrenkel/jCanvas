@@ -15,7 +15,7 @@ in your HTML file insert the canvas tag and the video tag:
         <source src="video.ogg" type="video/ogg" />
     </video>
 
-before the \</body>\ tag:
+before the \</body> tag:
 
     <script src="jcanvas/jquery.jcanvas.js"></script>
     <script>
