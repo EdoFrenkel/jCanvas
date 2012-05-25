@@ -36,7 +36,8 @@ API
         shape: 'string', // the default is 'square'. another shapes you can use are: circle, chat
         roundCorners: int, // the default is null
         controls: boolean, // the default is true
-        autoplay: boolean // the default is false
+        autoplay: boolean, // the default is false
+        jCanvasFolder: 'string' // the default is 'jcanvas'. change it if you save the plugin in diffrent folder
     });
 
 STYLE
