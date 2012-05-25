@@ -44,13 +44,21 @@ STYLE
 =====
 you can overide every id style:
 
-    #cContainer - the container of the canvas. 
-      Notice: if you want to change the canvas position you should change the #cContainer position
+    #cContainer{videoNum} - the container of the canvas. 
+      Notice{videoNum}: if you want to change the canvas position you should change the #cContainer position
               if you want to change the canvas width&height you should do it only through the API
-    #bContainer - the container of the buttons
-    #btnPlay - the play button
-    #btnPause - the pause btutton
-    #btnStart - the 'back to start' button
+    #bContainer{videoNum} - the container of the buttons
+    #btnPlay{videoNum} - the play button
+    #btnPause{videoNum} - the pause btutton
+    #btnStart{videoNum} - the 'back to start' button
+    
+    {videoNum} - every call for the jCanvas() increase the videoNum value, so if you have one call for one video
+                you will call #cContainer1. this way you can set multipile number of videos and canvas at the same page.
+                look at the index.html example.
+                
+the overiding is done like so:
+
+    $('#idName').css({"property": "value", "property", "value"});
     
 Known Issues
 ============
